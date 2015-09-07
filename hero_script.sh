@@ -46,3 +46,11 @@
 # // This is the file for ${p^}
 # " > hk_binds/$p.cfg
 # done <herolist.txt
+
+# while read p; do
+#    echo "" >> hk_aliases/$p.cfg
+#    echo "alias \"current_hero_space\" \"exec hk_binds/space/$p.cfg\"" >> hk_aliases/$p.cfg
+#    echo "" >> hk_aliases/$p.cfg
+#    echo "alias \"current_hero_alt\" \"exec hk_binds/alt/$p.cfg\"" >> hk_aliases/$p.cfg
+#    echo "" >> hk_aliases/$p.cfg
+# done <herolist.txt
